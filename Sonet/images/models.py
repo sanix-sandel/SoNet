@@ -32,11 +32,7 @@ class Image(models.Model):
 Database indexes improve query performance. Consider setting
 db_index=True for fields that you frequently query using
 filter(), exclude(), or order_by(). ForeignKey fields or
-fields with unique=True imply the creation of an index. You can
-also use Meta.index_together or Meta.indexes to create
-indexes for multiple fields. You can learn more about database
-indexes at https://docs.djangoproject.com/en/3.0/ref/
-models/options/#django.db.models.Options.indexes.
+fields with unique=True imply the creation of an index. 
 """
 
 
